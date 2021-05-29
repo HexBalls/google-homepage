@@ -1,0 +1,46 @@
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#lefthead {
+    justify-content: start;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+}
+
+#righthead {
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+}
+
+#app-image {
+    height: 30px;
+    width: 30px;
+}
+
+a{
+    padding: 6px;
+
+}
+
+img{
+    padding: 16px;
+}
+
+#sign-in{
+    background-color: rgb(68, 68, 228);
+    color: white;
+    border: 1px solid #4285f4;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

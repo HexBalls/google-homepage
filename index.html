@@ -2,9 +2,22 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     
   <body>
+   <nav> 
+        <div id="lefthead">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div id="righthead">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <img id="app-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAHlBMVEUAAAD////c3NyGhobZ2dl9fX3o6OiCgoL4+Pi3t7cTiY9IAAABp0lEQVR4nO3dy23DQBBEQZpfKf+EHYH30IcGhq4KoLHvPBK4baH9529HuHksNvf0oTGFCYVdChMKuxQmFHYpTCjsUphQ2KUwobBLYUJhl8KEwi6FCYVdChMKuxQmFHYpTCjsUphQ2KUwobBLYUJhl8KEwi6FCYVdChMKu87Fa65w81psnvFL98z5WbzmPrPNe7H5yTb3fVuMvoPC+RTOp3A+hfMpnE/hfArnUzifwvkUzqdwPoXzKZxvOzLX6sbwfaLN57vYvK/wpfFFZ3V7esLNZ7GZ355S778fKkwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7Hp/4Zzf6of/Yhj0f4vF6DsonE/hfArnUzifwvkUzqdwPoXzKZxP4XwK51M4n8L5/sH3LVJzvlGSev/9UGFCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMLIL9IUYVkcF1KJAAAAAElFTkSuQmCC">
+            <button id="sign-in">Sign in</button> 
+        </div>
+    </nav>
     <div id="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     </div>
@@ -12,29 +25,20 @@
     <div id="searchbar">
         <input id="input" type="search" autocomplete="off" spellcheck="false" placeholder="Search Google or type a URL">
     </div>
-    <div id="lefthead">
-        <a href="#">About</a>
-        <a href="#">Store</a>
-    </div>
-    <div id="righthead">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAHlBMVEUAAAD////c3NyGhobZ2dl9fX3o6OiCgoL4+Pi3t7cTiY9IAAABp0lEQVR4nO3dy23DQBBEQZpfKf+EHYH30IcGhq4KoLHvPBK4baH9529HuHksNvf0oTGFCYVdChMKuxQmFHYpTCjsUphQ2KUwobBLYUJhl8KEwi6FCYVdChMKuxQmFHYpTCjsUphQ2KUwobBLYUJhl8KEwi6FCYVdChMKu87Fa65w81psnvFL98z5WbzmPrPNe7H5yTb3fVuMvoPC+RTOp3A+hfMpnE/hfArnUzifwvkUzqdwPoXzKZxvOzLX6sbwfaLN57vYvK/wpfFFZ3V7esLNZ7GZ355S778fKkwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7Hp/4Zzf6of/Yhj0f4vF6DsonE/hfArnUzifwvkUzqdwPoXzKZxP4XwK51M4n8L5/sH3LVJzvlGSev/9UGFCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMIuhQmFXQoTCrsUJhR2KUwo7FKYUNilMKGwS2FCYZfChMLIL9IUYVkcF1KJAAAAAElFTkSuQmCC">
-        <button class="sign-in">Sign in</button> 
-    </div>
     
-    <div class="sbuttons">
+    
+    <div id="sbuttons">
         <button>Google Search</button>
         <button>I'm Feeling Lucky</button>
     </div>
-    <div class="bbar">
-        <div class="left-bbar">
+    <div id="bbar">
+        <div id="left-bbar">
             <a href="#">Advertising</a>
             <a href="#">Business</a>
             <a href="#">How Search Works</a>
         </div>
 
-        <div class="right-bbar">
+        <div id="right-bbar">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
             <a href="#"Setting></a>
