@@ -56,27 +56,86 @@ img{
     border-radius: 2px;
 }
 
-#bbar {
-    display: flex;
-    bottom: 0px;
-    position: absolute;
-    background-color: #f2f2f2;
+footer{
+    background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
-    padding: 15px;
-    width: max-content;
+    bottom: 0;
+    justify-content: flex-end;
+    position: fixed;
     width: 100%;
-    
-    
-}
-
-#left-bbar{
-
 }
 
 #right-bbar{
-    position: relative;
     justify-content: flex-end;
-    text-align: right;
+    display: flex;
     right: 0;
-    padding-left: 1420px;
+    align-items: center;
+    padding-left: 1470px;
 }
+
+#logo{
+    height: 92px;
+    text-align: center;
+    padding-top: 109px;
+    display: block;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#search{
+    width: 50vw;
+    max-width: 500px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding: 0 40px;
+    font-size: initial;
+    margin: 20px;
+    margin-left: 665px;
+}
+
+
+
+
+.search_icon{
+    position: absolute;
+    padding-left: 657px;
+    padding-top: 14px;
+    
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 10px;
+    
+
+}
+
+.buttons div{
+    border-color: #c0c0c0;
+    border-radius: 5px;
+    background-color: #eee;
+    color: #3b3b3b;
+    padding: 10px;
+    border: 1px solid #fff;
+    line-height: 10px;
+
+
+
+}
+
+#lucky{
+
+}
+
+#gsearch{
+    
+}
+
+
